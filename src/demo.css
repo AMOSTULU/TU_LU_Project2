@@ -1,0 +1,50 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .prompt {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .difficulty-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    background-color: #008CBA; /* some blue */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    color: #008CBA;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #005580; /* darker blue */
+  }
+
+  .selected {
+    background-color: green;
+    color: white;
+  }
